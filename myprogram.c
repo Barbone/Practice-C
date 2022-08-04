@@ -1,7 +1,8 @@
 #include<stdio.h>
-//Program de  calculator  în C;
-/* Acesta este un comentariu multi liniar
-pot sa am oricate linii de comentariu
+//Computer program written in C;
+/* This a multi line comment
+I can write on as many lines
+as I want
 */
 int main(void){
 printf("\n");
