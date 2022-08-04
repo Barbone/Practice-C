@@ -5,17 +5,13 @@ I can write on as many lines
 as I want
 */
 int main(void){
-printf("\n");
-printf("\n");
+printf("\n\n");
 
-
-int myarr[2][3]={{1,2,3}, {4,5,6}};
-for(int i= 0; i<2; i++){
-  for(int j=0; j<3; j++){
-    printf("%d", myarr[i][j]);
-  }
-  printf("\n\n");
-}
+int x = 123;
+int *p=&x;
+*p=637;
+printf("Din 123, x a devenit %d\n\n", x);
+printf("Valoarea lui p este %p", p);
 
 printf("\n\n");
 }
